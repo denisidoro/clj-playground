@@ -1,0 +1,9 @@
+#kaocha/v1
+    {:tests                 [{:id          :unit
+                              :test-paths  ["test"]
+                              :ns-patterns ["playground.*"]}
+                             {:id          :integration
+                              :test-paths  ["test"]
+                              :ns-patterns ["integration.*"]}]
+
+     :kaocha.hooks/pre-load [kaocha.assertions/load-assertions]}

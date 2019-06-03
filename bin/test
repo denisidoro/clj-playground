@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+first_arg="${1:-}"
+
+case $first_arg in
+  unit) shift; lein kaocha unit "$@";;
+  integration) shift; lein kaocha --fail-fast integration "$@";;
+  *) lein kaocha "$@";;
+esac
