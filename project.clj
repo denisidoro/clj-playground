@@ -25,7 +25,7 @@
   [[org.clojure/clojure "1.10.0"]
 
    ; Toolbelts
-   [denisidoro/quark "0.6.0"]
+   [denisidoro/quark "0.7.0"]
 
    ; DI
    ;[com.stuartsierra/component "0.3.2"]
