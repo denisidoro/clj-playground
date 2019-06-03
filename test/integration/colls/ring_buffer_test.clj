@@ -35,5 +35,5 @@
 
   (partial add! 4)
   (t/testing "elements are cycled"
-    (t/is (match? [2 3 5] (xs *world*)))))
+    (t/is (match? [2 3 4] (xs *world*)))))
 
