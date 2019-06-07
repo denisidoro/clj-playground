@@ -1,6 +1,5 @@
 (ns playground.core)
 
 (defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+  [& args]
+  42)
